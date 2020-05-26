@@ -31,7 +31,7 @@
  	*/
  	
  	
-     class IpAddress {
+    class IpAddress {
   constructor() {
     // IAP's global log object is used to output errors, warnings, and other
     // information to the console, IAP's log files, or a Syslog server.
@@ -40,7 +40,6 @@
     // under Documentation -> Developer Guides -> Log Class Guide
     log.info('Starting the IpAddress product.');
   }
-
     getFirstIpAddress(cidrStr, callback) {
  	 
  	// Initialize return arguments for callback
